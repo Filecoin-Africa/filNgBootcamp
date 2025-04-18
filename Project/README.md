@@ -23,7 +23,7 @@ Please follow the steps below to submit your project properly.
 ### 🧾 Required Info in Your `README.md`
 
 - 📛 **Project Title**
-- 🧑🏽‍💻 **Group Member(s):** Names + GitHub handles
+- 🧑🏽‍💻 **Group Member(s):** Names + GitHub handles + Emails
 - 📝 **Short Description** of what your project does
 - 🌐 **Live Demo Link** (if available)
 - 🔗 **Link to Hosted Project** (e.g., IPFS, Fleek, Vercel, etc.)
