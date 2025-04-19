@@ -1,6 +1,8 @@
 Project Title: OpenEdStore Decentralized Educational Storage Platform
 
 Group Members: 
+
+
 Names           GitHub Handles                  Emails
 Beulah          @Beutife               udebeulah@gmail.com
 Similoluwa      @Abidoyesimze          similoluwaeyitayoabidoye@gmail.com
