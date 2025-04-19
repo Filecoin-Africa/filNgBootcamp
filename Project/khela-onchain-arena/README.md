@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# Khela Onchain Arena
 
-## Project info
+A modern web3 gaming platform built with React, TypeScript, and Vite, featuring a beautiful UI powered by Shadcn UI components. 
 
-**URL**: https://lovable.dev/projects/daa4a553-73b2-4bca-a597-cf378419b5bf
+## TEAM NAME: Stratis Labs
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- Modern React with TypeScript
+- Web3 Integration with RainbowKit and Wagmi
+- Beautiful UI components using Shadcn UI
+- Responsive design with Tailwind CSS
+- Form handling with React Hook Form and Zod validation
+- State management with React Query
+- Routing with React Router
+- File storage with Lighthouse Web3 SDK
 
-**Use Lovable**
+## 📦 Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/daa4a553-73b2-4bca-a597-cf378419b5bf) and start prompting.
+- Node.js (v18 or higher)
+- npm or yarn or bun package manager
+- A Web3 wallet (MetaMask, WalletConnect, etc.)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Installation
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/khela-onchain-arena.git
+cd khela-onchain-arena
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Create a `.env` file in the root directory and add your environment variables:
+```env
+VITE_LIGHTHOUSE_API_KEY=your_lighthouse_api_key
+```
 
-**Use GitHub Codespaces**
+## 🚀 Development
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+To start the development server:
 
-## What technologies are used for this project?
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
 
-This project is built with:
+The application will be available at `http://localhost:5173`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏗️ Building for Production
 
-## How can I deploy this project?
+To create a production build:
 
-Simply open [Lovable](https://lovable.dev/projects/daa4a553-73b2-4bca-a597-cf378419b5bf) and click on Share -> Publish.
+```bash
+npm run build
+# or
+yarn build
+# or
+bun build
+```
 
-## Can I connect a custom domain to my Lovable project?
+To preview the production build:
 
-Yes, you can!
+```bash
+npm run preview
+# or
+yarn preview
+# or
+bun preview
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧪 Linting
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+To run the linter:
+
+```bash
+npm run lint
+# or
+yarn lint
+# or
+bun lint
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── config/        # Configuration files
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions and libraries
+├── pages/         # Page components
+├── services/      # API and service integrations
+├── App.tsx        # Main application component
+└── main.tsx       # Application entry point
+```
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/) - UI Library
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Shadcn UI](https://ui.shadcn.com/) - UI Components
+- [RainbowKit](https://www.rainbowkit.com/) - Web3 Wallet Connection
+- [Wagmi](https://wagmi.sh/) - Web3 Hooks
+- [React Query](https://tanstack.com/query/latest) - Data Fetching
+- [React Router](https://reactrouter.com/) - Routing
+- [Lighthouse Web3 SDK](https://docs.lighthouse.storage/) - File Storage
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](issues).
+
+## 👥 Authors
+
+- Your Name - Initial work
+
+## 🙏 Acknowledgments
+
+- Shadcn UI for the beautiful component library
+- RainbowKit and Wagmi for Web3 integration
+- The React and TypeScript communities
