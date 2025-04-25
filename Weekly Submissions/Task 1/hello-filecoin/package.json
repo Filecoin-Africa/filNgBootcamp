@@ -1,0 +1,17 @@
+{
+  "name": "fevm-starter",
+  "version": "1.0.0",
+  "description": "Starter project for deploying Solidity contracts to FEVM",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network calibration"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  }
+}
